@@ -5,39 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Search Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <header>
-        <nav id='navbar'>
+<header>
+    <nav id='navbar'>
+        <div id='navbar-left'>
             <a>About</a>
             <a>Store</a>
+        </div>
+        <div id='navbar-right'>
             <a>Gmail</a>
             <a>Images</a>
             <a>Google Apps</a>
             <a>Sign In</a>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
-    <div id='main-block'>
+<div id='main-block'>
+    <div id='structure'>
         <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
-        <div id='search-bar'>
-            <i id='magnifier-icon'></i>
-            <form>
-                <input type='text'>
-            </form>
-            <i id='colorful-microfone-icon'></i>
+            <div id='box'>
+                <div id='search-bar'>
+                    <i id='magnifier-icon'></i>
+                    <form>
+                        <input id='input' type='text'>
+                    </form>
+                    <i id='colorful-microfone-icon'></i>
+                </div>
+            </div>
+        <div id='input-block'>
+            <button class='buttons'>Google Search</button>
+            <button class='buttons'>I'm Feeling Lucky</button>
         </div>
     </div>
+</div>
 
-    <footer>
-        <a>Advertising</a>
-        <a>Business</a>
-        <a>How Search Works</a>
-        <a>Privacy</a>
-        <a>Terms</a>
-        <a>Settings</a>
-    </footer>
+<div id='lower-navbar'>
+    <span id='bottom-left-span'>
+        <a class='bottom-links'>Advertising</a>
+        <a class='bottom-links'>Business</a>
+        <a class='bottom-links'>How Search Works</a>
+    </span>
+    <span id='bottom-right-span'>
+        <a class='bottom-links'>Privacy</a>
+        <a class='bottom-links'>Terms</a>
+        <a class='bottom-links'>Settings</a>
+    </span>
+</div>
 
 </body>
 </html>
