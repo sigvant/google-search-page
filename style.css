@@ -50,16 +50,6 @@ body {
     align-items: center;
 }
 
-#navbar-left {
-    float: left;
-}
-
-#navbar-right {
-    display: flex;
-    justify-content: flex-;
-
-}
-
 #search-bar {
     padding: 20px;
 
@@ -82,7 +72,7 @@ body {
     background-color: #f2f2f2;
     border: 1px solid #f3f3f3;
     border-radius: 3px;
-    color: #5F6368;
+    color: #22262b;
     font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -117,4 +107,33 @@ body {
     outline: none;
     display: flex;
     flex: 100%;
+}
+
+#upper-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#upper-left-span {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+#upper-right-span {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+}
+
+.upper-links {
+    padding: 14px;
+
 }
